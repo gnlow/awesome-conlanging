@@ -16,7 +16,7 @@
 
 ## Phonotactics 음소배열론
 
-### Maximal Onset Principle 최대 음절 초성 원칙
+### Maximal Onset Principle 최대 초음 원칙
 - 자음이 앞 음절의 종성보다 뒷 음절의 초성에 붙는 경향
 - 예(영어):
   - Reply [rɪ.plaɪ]
