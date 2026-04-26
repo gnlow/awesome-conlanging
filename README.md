@@ -1,5 +1,16 @@
 # awesome-conlanging
 
+## Phonetics 음성학
+
+### Source-Filter Model 소스-필터 모델
+- 목소리는 성대의 원음(source)이 성도(vocal tract; 인두, 구강, 비강)를 지나며 filter된 것임
+
+#### Harmonics 배음
+- 400Hz로 목소리를 내면 그 배수인 800Hz, 1200Hz, 1600Hz, ... 성분도 소리에 포함됨
+
+#### Formant 포먼트
+- 
+
 ## Phonotactics 음소배열론
 
 ### Maximal Onset Principle 최대 음절 초성 원칙
@@ -17,12 +28,10 @@
 - 공명도 척도
   - ptk < sfz < mn < lr < wj < iu < eo < a
 
-![](ssp.png)
-
 ## Math 수학
 
 ### Markov Chain 마르코프 체인
-- 코퍼스에서 각 n-gram의 개수를 세고, 얻어낸 분포를 바탕으로 단어 또는 문장을 생성
+- 코퍼스에서 각 n-gram의 개수를 세고, 얻어낸 분포를 바탕으로 단어 또는 문장을 랜덤하게 생성
 - 예:
   - 시카노코 https://youtu.be/Xkq13ZthmA0
     - しかのこのこのここしたんたん
