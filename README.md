@@ -3,7 +3,7 @@
 ## Phonetics 음성학
 
 ### Source-Filter Model 소스-필터 모델
-- 목소리는 성대의 원음(source)이 성도(vocal tract; 인두, 구강, 비강)를 지나며 filter된 것임
+- 목소리는 성대의 원음(source)이 성도(vocal tract - 인두, 구강, 비강)를 지나며 filter된 것임
 
 #### Harmonics 배음
 - 400Hz로 목소리를 내면 그 배수인 800Hz, 1200Hz, 1600Hz, ... 성분도 소리에 포함됨
@@ -28,7 +28,7 @@
 - 공명도 척도
   - ptk < sfz < mn < lr < wj < iu < eo < a
 
-## Math 수학
+## 기타
 
 ### Markov Chain 마르코프 체인
 - 코퍼스에서 각 n-gram의 개수를 세고, 얻어낸 분포를 바탕으로 단어 또는 문장을 랜덤하게 생성
@@ -71,3 +71,45 @@
         -> 끝 : 50%
       ```
   - 이름 생성기 https://www.samcodes.co.uk/project/markov-namegen/
+
+## 추천 소프트웨어 (무료 오픈소스)
+
+### 데이터 분석
+
+#### Jamovi
+- https://www.jamovi.org/
+- 데이터를 가지고 가설을 검증할 때.
+- GUI 기반. 코딩 필요 없음.
+- 간단한 스크립트 적용 가능.
+- 가설에 따라 아래 테스트 돌리면 p값이 나옴.
+  - 이 분포의 평균이 x인가?
+    - 정규분포일 때: One-sample T-test
+    - 아닐 때: Wilcoxon signed-rank test
+
+  - 두 집단의 평균이 서로 다른가?
+    - 정규분포일 때: Independent two-sample T-test
+    - 아닐 때: Mann-Whitney U-test
+
+  - 동일 집단의 전/후 평균이 달라졌는가?
+    - 정규분포일 때: Paired-sample T-test
+    - 아닐 때: Wilcoxon signed-rank test
+
+  - 세 집단 이상의 평균이 서로 다른가?
+    - 정규분포일 때: One-way ANOVA
+    - 아닐 때: Kruskal-Wallis test
+
+  - 두 변수 사이에 상관관계가 있는가?
+    - 정규분포일 때: Pearson correlation
+    - 아닐 때: Spearman correlation
+
+  - 범주형 변수 간에 연관이 있는가?
+    - 일반적인 경우: Chi-square test
+    - 표본 수가 적을 때: Fisher's exact test
+
+  - 이 분포가 정규분포인가?
+    - 시각적으로 확인할 때: Q-Q plot, Histogram
+    - 통계적으로 검정할 때 (표본이 적을 때): Shapiro-Wilk test
+    - 통계적으로 검정할 때 (표본이 많을 때): Kolmogorov-Smirnov test
+
+#### Quarto
+- Jupyter Notebook의 상위호환 버전
