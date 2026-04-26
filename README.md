@@ -12,7 +12,7 @@
 - 성도에서 원음의 특정 주파수 대역은 걸러내고 다른건 살리는데, 그 중 살려놓는 주파수 대역
 - 포먼트들을 주파수 낮은 순으로 F1, F2, F3, ...라고 부름
 - 모음에 따라 포먼트가 결정되며, F2를 x축, F1를 y축으로 해서 그리면 모음사각도랑 같은 모양으로 나옴
-- 참고 이미지: https://www.researchgate.net/figure/F1-and-F2-of-some-IPA-vowels-1_fig1_320280448
+  - 참고 이미지: https://www.researchgate.net/figure/F1-and-F2-of-some-IPA-vowels-1_fig1_320280448
 
 ## Phonotactics 음소배열론
 
